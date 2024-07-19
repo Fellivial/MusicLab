@@ -14,13 +14,13 @@
 - Clone it
 
 ```
-$ git clone git@github.com:group3-musiclab/MusicLab-FE.git
+$ git clone git@github.com:group3-musiclab/MusicLab.git
 ```
 
 - Go to directory
 
 ```
-$ cd MusicLab-FE
+$ cd MusicLab
 ```
 
 - Run the project
