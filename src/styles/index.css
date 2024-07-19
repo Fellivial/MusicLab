@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tr-class {
+  @apply flex flex-col mb-4;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  margin: 0 auto;
+  max-width: 24.5rem;
+  margin-top: 0.2rem;
+  border-width: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.center-login {
+  margin: 0 auto;
+  max-width: 21rem;
+  margin-top: 0.2rem;
+  border-width: 2px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+}
+
+.ab {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 15px;
+  right: 0;
+  padding-right: 10px;
+}
+
+.input-custom {
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: 45px;
+  padding: 8px;
+  border-radius: 10px;
+}
